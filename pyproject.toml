@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MLProject"
+version = "0.1.0"
+description = "ML Project"
+authors = [{name = "Amaan", email = "amaanav100@gmail.com"}]
+requires = [
+    "pandas",
+    "numpy",
+    "seaborn",
+    "matplotlib",
+]
