@@ -7,9 +7,10 @@ name = "MLProject"
 version = "0.1.0"
 description = "ML Project"
 authors = [{name = "Amaan", email = "amaanav100@gmail.com"}]
-requires = [
+dependencies = [
     "pandas",
     "numpy",
     "seaborn",
     "matplotlib",
+    "scikit-learn",
 ]
